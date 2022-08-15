@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T17:00:04.954Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZHzuOvLbRkvbZCqUz88C" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T18:57:05.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="boSpk1gvygBtIjOjCwwm" version="20.0.4" type="github">
   <diagram id="J2gj59TK-olQQGAqNqcI" name="Page-1">
-    <mxGraphModel dx="451" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="451" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,8 +132,32 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-37" value="&lt;div style=&quot;&quot;&gt;Deploy Softserve&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="630" y="392.5" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-38" value="&lt;div style=&quot;&quot;&gt;Wait Softserve&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-38" value="&lt;div style=&quot;&quot;&gt;Wait Softserve&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="630" y="442" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-39" value="&lt;div style=&quot;&quot;&gt;Push gitops to softserve&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="490" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-40" value="&lt;div style=&quot;&quot;&gt;helm install argo&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="535.25" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-41" value="&lt;div style=&quot;&quot;&gt;Wait ArgoCD&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="588" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-42" value="&lt;div style=&quot;&quot;&gt;setArgoCD Creds ?&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="638" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-43" value="&lt;div style=&quot;&quot;&gt;install registry app&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(ArgoCD)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="688" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-44" value="&lt;div style=&quot;&quot;&gt;Wait Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="738" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-45" value="&lt;div style=&quot;&quot;&gt;initialize/unseal Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="790" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-47" value="&lt;div style=&quot;&quot;&gt;Wait Gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="630" y="840" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
