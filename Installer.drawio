@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T19:05:07.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vU0RvIwoUdtUmKPOE48G" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T20:39:20.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5DqeuDWWwAzpfJU_3-SS" version="20.0.4" type="github">
   <diagram id="J2gj59TK-olQQGAqNqcI" name="Page-1">
-    <mxGraphModel dx="451" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="556" dy="1274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,7 +123,7 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-35" value="&lt;div style=&quot;&quot;&gt;Create Base&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(EKS Cluster)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="290" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-36" value="&lt;div style=&quot;&quot;&gt;Try to restore SSL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;restoreSSLCmd&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-36" value="&lt;div style=&quot;&quot;&gt;Try to restore SSL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;restoreSSLCmd&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="340" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-37" value="&lt;div style=&quot;&quot;&gt;Deploy Softserve&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
@@ -135,13 +135,13 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-39" value="&lt;div style=&quot;&quot;&gt;Push gitops to softserve&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="630" y="490" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-40" value="&lt;div style=&quot;&quot;&gt;helm install argo&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-40" value="&lt;div style=&quot;&quot;&gt;helm install argo&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="535.25" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-41" value="&lt;div style=&quot;&quot;&gt;Wait ArgoCD&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="630" y="588" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-42" value="&lt;div style=&quot;&quot;&gt;setArgoCD Creds ?&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-42" value="&lt;div style=&quot;&quot;&gt;setArgoCD Creds ?&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="638" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-43" value="&lt;div style=&quot;&quot;&gt;install registry app&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(ArgoCD)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
@@ -150,7 +150,7 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-44" value="&lt;div style=&quot;&quot;&gt;Wait Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="630" y="738" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-45" value="&lt;div style=&quot;&quot;&gt;initialize/unseal Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-45" value="&lt;div style=&quot;&quot;&gt;initialize/unseal Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="790" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-47" value="&lt;div style=&quot;&quot;&gt;Wait Gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -159,7 +159,7 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-48" value="&lt;div style=&quot;&quot;&gt;Configure Gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="630" y="890" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-49" value="&lt;div style=&quot;&quot;&gt;Configure Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-49" value="&lt;div style=&quot;&quot;&gt;Configure Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="935" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-50" value="&lt;div style=&quot;&quot;&gt;Setup OIDC&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
@@ -174,10 +174,10 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-53" value="&lt;div style=&quot;&quot;&gt;Send gitops to gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="630" y="1130" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-54" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-54" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="1180" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-55" value="&lt;div style=&quot;&quot;&gt;Show end of installation&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-55" value="&lt;div style=&quot;&quot;&gt;Show end of installation&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="1230" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-56" value="&lt;div style=&quot;text-align: left;&quot;&gt;Telemetry&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -194,6 +194,36 @@
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-60" value="&lt;div style=&quot;&quot;&gt;Update github repos with templates&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;githubPopulateCmd&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="800" y="445.5" width="140" height="54.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-61" value="&lt;div style=&quot;&quot;&gt;Try to restore SSL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;restoreSSLCmd&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="512.5" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-62" value="&lt;div style=&quot;&quot;&gt;install registries apps for github&lt;/div&gt;&lt;div style=&quot;&quot;&gt;(ArgoCD)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="800" y="570" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-63" value="&lt;div style=&quot;&quot;&gt;helm install argo&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="628" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-64" value="&lt;div style=&quot;&quot;&gt;Wait ArgoCD&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="678" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-65" value="&lt;div style=&quot;&quot;&gt;setArgoCD Creds ?&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="728" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-66" value="&lt;div style=&quot;&quot;&gt;initialize/unseal Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="830" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-67" value="&lt;div style=&quot;&quot;&gt;Wait Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="778" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-68" value="&lt;div style=&quot;&quot;&gt;Configure Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="880" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-69" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="935" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-70" value="&lt;div style=&quot;&quot;&gt;Show end of installation&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="800" y="995" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
