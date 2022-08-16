@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T20:39:20.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5DqeuDWWwAzpfJU_3-SS" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T16:10:47.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="030Dye51LKTysdNUaOYh" version="20.0.4" type="github">
   <diagram id="J2gj59TK-olQQGAqNqcI" name="Page-1">
-    <mxGraphModel dx="556" dy="1274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
           <mxGeometry x="20" y="678" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-21" value="&lt;div style=&quot;text-align: left;&quot;&gt;Clone/Detokenize&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/Config&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;metaphor&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="748" width="140" height="60" as="geometry" />
+          <mxGeometry x="730" y="1350" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SkFK2cyeuyImmtoLap9O-8" target="SkFK2cyeuyImmtoLap9O-8">
           <mxGeometry relative="1" as="geometry" />
@@ -104,13 +104,13 @@
           <mxGeometry x="60" y="840" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-28" value="s3 buckets&lt;br&gt;(4x)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="935" width="100" height="50" as="geometry" />
+          <mxGeometry x="100" y="1070" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-29" value="route 53&lt;br&gt;record" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="990" width="100" height="50" as="geometry" />
+          <mxGeometry x="100" y="1010" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-31" value="ssh public/private&lt;br&gt;keys for installer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1050" width="100" height="50" as="geometry" />
+          <mxGeometry x="100" y="935" width="100" height="50" as="geometry" />
         </mxCell>
         <UserObject label="https://kubeshop.slack.com/archives/C03GP31UK4J/p1660581369584979" link="https://kubeshop.slack.com/archives/C03GP31UK4J/p1660581369584979" id="SkFK2cyeuyImmtoLap9O-32">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -177,6 +177,9 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-54" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="1180" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SkFK2cyeuyImmtoLap9O-55" target="SkFK2cyeuyImmtoLap9O-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-55" value="&lt;div style=&quot;&quot;&gt;Show end of installation&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="630" y="1230" width="140" height="40" as="geometry" />
         </mxCell>
@@ -222,8 +225,22 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-69" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="800" y="935" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="SkFK2cyeuyImmtoLap9O-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-70" value="&lt;div style=&quot;&quot;&gt;Show end of installation&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="800" y="995" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-71" value="&lt;div style=&quot;text-align: left;&quot;&gt;Clone/Detokenize&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/Config&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;metaphor-go&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1420" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;Clone/Detokenize&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/Config&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;metaphor-front-end&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1490" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;Clone/Detokenize&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/Config&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;metaphor&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1430" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
