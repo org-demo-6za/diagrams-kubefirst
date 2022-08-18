@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T19:34:02.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3T4s9qRMbSp2LRYSrG01" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T13:04:59.999Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="iloyIp4KWCdAvXg3aTqD" version="20.2.4" type="github">
   <diagram id="J2gj59TK-olQQGAqNqcI" name="Page-1">
-    <mxGraphModel dx="2110" dy="1264" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1895" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,19 +160,19 @@
           <mxGeometry x="630" y="980" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-51" value="&lt;div style=&quot;&quot;&gt;Send gitops to gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1030" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-52" value="&lt;div style=&quot;&quot;&gt;replace softserve by gitlab on argoCD&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="630" y="1080" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-53" value="&lt;div style=&quot;&quot;&gt;Send gitops to gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-52" value="&lt;div style=&quot;&quot;&gt;replace softserve by gitlab on argoCD&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="630" y="1130" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-54" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="SkFK2cyeuyImmtoLap9O-53" value="&lt;div style=&quot;&quot;&gt;Send gitops to gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="630" y="1180" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="SkFK2cyeuyImmtoLap9O-54" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="630" y="1230" width="140" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-55" value="&lt;div style=&quot;&quot;&gt;Show end of installation&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="730" y="1340" width="140" height="40" as="geometry" />
+          <mxGeometry x="720" y="1390" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-57" value="&lt;div style=&quot;&quot;&gt;create github repos&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;githubAddCmd&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="800" y="290" width="140" height="40" as="geometry" />
@@ -223,12 +223,12 @@
           <mxGeometry x="180" y="1430" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-77" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-communication/18/call-merge-128.png;flipV=1;" parent="1" vertex="1">
-          <mxGeometry x="763" y="1240" width="74" height="74" as="geometry" />
+          <mxGeometry x="753" y="1290" width="74" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="eR0vIRgy4FKtOiIALMkV-1" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="eR0vIRgy4FKtOiIALMkV-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="750" width="60" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="eR0vIRgy4FKtOiIALMkV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=60;exitDy=40;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="eR0vIRgy4FKtOiIALMkV-1" source="Tw4C9E_s_eTnJNMB4j2x-2" target="Tw4C9E_s_eTnJNMB4j2x-3">
+        <mxCell id="eR0vIRgy4FKtOiIALMkV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=60;exitDy=40;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="eR0vIRgy4FKtOiIALMkV-1" source="Tw4C9E_s_eTnJNMB4j2x-2" target="Tw4C9E_s_eTnJNMB4j2x-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tw4C9E_s_eTnJNMB4j2x-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=60;arrowHead=10;rotation=90;" parent="eR0vIRgy4FKtOiIALMkV-1" vertex="1">
@@ -236,6 +236,9 @@
         </mxCell>
         <mxCell id="Tw4C9E_s_eTnJNMB4j2x-3" value="create" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="eR0vIRgy4FKtOiIALMkV-1" vertex="1">
           <mxGeometry y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1MhGsr3bH-iDjKj8i6cH-1" value="&lt;div style=&quot;&quot;&gt;Deploy Metaphor&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;deployMetaphorCmd&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1030" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
