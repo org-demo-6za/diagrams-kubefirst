@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T11:33:40.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eOcqMIODVCxzvU1W2Lav" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T16:21:03.637Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Kltr86EyHyx8aFljxue1" version="20.2.5" type="github">
   <diagram id="J2gj59TK-olQQGAqNqcI" name="Page-1">
-    <mxGraphModel dx="1058" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="701" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,6 +168,9 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-53" value="&lt;div style=&quot;&quot;&gt;Send gitops to gitlab&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="630" y="1129" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Why_t8IttUA2EOtk_Ro0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1" source="SkFK2cyeuyImmtoLap9O-54" target="1MhGsr3bH-iDjKj8i6cH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-54" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="630" y="1179" width="140" height="40" as="geometry" />
         </mxCell>
@@ -210,6 +213,16 @@
         <mxCell id="SkFK2cyeuyImmtoLap9O-68" value="&lt;div style=&quot;&quot;&gt;Configure Vault&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="800" y="880" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Why_t8IttUA2EOtk_Ro0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="974" as="sourcePoint" />
+            <mxPoint x="790" y="1318" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="1269" />
+              <mxPoint x="790" y="1269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-69" value="&lt;div style=&quot;&quot;&gt;Finalize vault setup&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="800" y="935" width="140" height="40" as="geometry" />
         </mxCell>
@@ -221,9 +234,6 @@
         </mxCell>
         <mxCell id="SkFK2cyeuyImmtoLap9O-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;Clone/Detokenize&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;/Config&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;metaphor&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="1430" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="SkFK2cyeuyImmtoLap9O-77" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/material-communication/18/call-merge-128.png;flipV=1;" parent="1" vertex="1">
-          <mxGeometry x="753" y="1239" width="74" height="74" as="geometry" />
         </mxCell>
         <mxCell id="eR0vIRgy4FKtOiIALMkV-1" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="750" width="60" height="100" as="geometry" />
@@ -239,6 +249,12 @@
         </mxCell>
         <mxCell id="1MhGsr3bH-iDjKj8i6cH-1" value="&lt;div style=&quot;&quot;&gt;Deploy Metaphor&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 36, 81); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;deployMetaphorCmd&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="720" y="1319" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Why_t8IttUA2EOtk_Ro0-3" value="&lt;div style=&quot;&quot;&gt;&lt;i&gt;X9-CMD&amp;nbsp;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;i&gt;informer command to observe cluster creation.&amp;nbsp;&lt;/i&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="960" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Why_t8IttUA2EOtk_Ro0-4" value="&lt;h1&gt;Observe&lt;/h1&gt;&lt;div&gt;- namespaces&lt;/div&gt;&lt;div&gt;- certs&lt;/div&gt;&lt;div&gt;- crds&lt;/div&gt;&lt;div&gt;- ingresses&lt;/div&gt;&lt;div&gt;- pods&lt;/div&gt;&lt;div&gt;- services&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="960" width="190" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
